@@ -1,0 +1,42 @@
+{
+  "simulated": true,
+  "area_id": "CA-A",
+  "program_type": "financial_education_workshop",
+  "program_start_date": "2027-02-01",
+  "attended": 64,
+  "participants_consented": 41,
+  "first_interactions_recorded": 41,
+  "participants_retained_90d": 22,
+  "followup_day": 45,
+  "no_return_at_followup": 23,
+  "followup_examples": [
+    {
+      "name": "Ana R.",
+      "last_interaction": "Workshop 2: Budgeting basics",
+      "days_since": 31,
+      "next_step": "1:1 budgeting session",
+      "flag": "Low opt-in response"
+    },
+    {
+      "name": "Luis M.",
+      "last_interaction": "Workshop 1: Banking 101",
+      "days_since": 44,
+      "next_step": "Text reminder for Workshop 4 (consented channel)",
+      "flag": "No visits after workshop 1"
+    },
+    {
+      "name": "Rosa T.",
+      "last_interaction": "Branch visit: account questions",
+      "days_since": 38,
+      "next_step": "Call back with ID-requirements checklist",
+      "flag": "Low opt-in response"
+    },
+    {
+      "name": "Marco O.",
+      "last_interaction": "Workshop 3: Sending money home",
+      "days_since": 29,
+      "next_step": "Invite to remittance-fees session",
+      "flag": "1 visit in first 2 weeks"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "synthetic": true,
+  "title": "Which Pre-Outreach Area Signals Are Associated with 90-Day Financial-Program Retention? A Synthetic Demonstration",
+  "min_participants": 15,
+  "dataset": {
+    "programs": 30,
+    "programs_used": 25,
+    "programs_too_small": 5,
+    "areas": 22,
+    "participants": 1158,
+    "median_retention": 0.489,
+    "min_retention": 0.263,
+    "max_retention": 0.833
+  },
+  "signals": [
+    {
+      "key": "community_partner_count",
+      "label": "Community partners",
+      "unit": "count",
+      "r": 0.57,
+      "ci_low": 0.23,
+      "ci_high": 0.79,
+      "n": 25,
+      "weight": 0.35,
+      "decision": "include",
+      "note": "Positive association; interval excludes zero."
+    },
+    {
+      "key": "financial_access_gap",
+      "label": "Financial access gap",
+      "unit": "% households",
+      "r": 0.35,
+      "ci_low": -0.05,
+      "ci_high": 0.66,
+      "n": 25,
+      "weight": 0.3,
+      "decision": "include",
+      "note": "Positive association, but the interval includes zero."
+    },
+    {
+      "key": "cash_reliance_index",
+      "label": "Cash reliance",
+      "unit": "index 0-100",
+      "r": 0.28,
+      "ci_low": -0.13,
+      "ci_high": 0.61,
+      "n": 25,
+      "weight": 0.2,
+      "decision": "include",
+      "note": "Positive association, but the interval includes zero."
+    },
+    {
+      "key": "remittance_activity_index",
+      "label": "Remittance activity",
+      "unit": "index 0-100",
+      "r": 0.2,
+      "ci_low": -0.21,
+      "ci_high": 0.55,
+      "n": 25,
+      "weight": 0.15,
+      "decision": "include",
+      "note": "Positive association, but the interval includes zero."
+    },
+    {
+      "key": "branch_distance_mi",
+      "label": "Distance to branch",
+      "unit": "miles",
+      "r": 0.01,
+      "ci_low": -0.39,
+      "ci_high": 0.4,
+      "n": 25,
+      "weight": 0.0,
+      "decision": "exclude",
+      "note": "Little association with retention; shown as context only."
+    },
+    {
+      "key": "prior_program_retention",
+      "label": "Prior program retention",
+      "unit": "% retained",
+      "r": 0.24,
+      "ci_low": -0.71,
+      "ci_high": 0.88,
+      "n": 6,
+      "weight": 0,
+      "decision": "needs_evidence",
+      "note": "Only 6 areas have an earlier program, and the interval is wide."
+    }
+  ],
+  "ranges": {
+    "community_partner_count": {
+      "min": 1,
+      "max": 8
+    },
+    "financial_access_gap": {
+      "min": 0.083,
+      "max": 0.361
+    },
+    "cash_reliance_index": {
+      "min": 32,
+      "max": 70
+    },
+    "remittance_activity_index": {
+      "min": 17,
+      "max": 73
+    },
+    "branch_distance_mi": {
+      "min": 0.6,
+      "max": 27.5
+    }
+  },
+  "weights": {
+    "community_partner_count": 0.35,
+    "financial_access_gap": 0.3,
+    "cash_reliance_index": 0.2,
+    "remittance_activity_index": 0.15,
+    "branch_distance_mi": 0.0
+  },
+  "holdout": {
+    "programs": 8,
+    "top_half": 4,
+    "top_half_above_median": 3
+  }
+}

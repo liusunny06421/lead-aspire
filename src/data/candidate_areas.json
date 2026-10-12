@@ -1,0 +1,62 @@
+[
+  {
+    "area_id": "CA-A",
+    "area_name": "Mesa Flats, TX",
+    "archetype": "Border metro neighborhood",
+    "income_regularity": 0.74,
+    "balance_volatility": 36,
+    "rent_on_time": 0.86,
+    "financial_access_gap": 0.31,
+    "community_partner_count": 6,
+    "branch_distance_mi": 2.1,
+    "missing_fields": [],
+    "unverified_fields": [],
+    "counterpoint": "The estimate rests on area averages. The bank should confirm local income patterns and partner capacity."
+  },
+  {
+    "area_id": "CA-D",
+    "area_name": "Copper Wells, NM",
+    "archetype": "Small border town",
+    "income_regularity": 0.55,
+    "balance_volatility": 55,
+    "rent_on_time": 0.75,
+    "financial_access_gap": 0.24,
+    "community_partner_count": 3,
+    "branch_distance_mi": 9.4,
+    "missing_fields": [],
+    "unverified_fields": [],
+    "counterpoint": "Clear need, but seasonal work makes income less regular. A good second pilot once Mesa Flats results are in."
+  },
+  {
+    "area_id": "CA-B",
+    "area_name": "Bitterroot Junction, MT",
+    "archetype": "Rural Mountain West town",
+    "income_regularity": 0.66,
+    "balance_volatility": null,
+    "rent_on_time": 0.81,
+    "financial_access_gap": 0.27,
+    "community_partner_count": 2,
+    "branch_distance_mi": 38.0,
+    "missing_fields": [
+      "balance_volatility"
+    ],
+    "unverified_fields": [
+      "rent_on_time"
+    ],
+    "counterpoint": "Distance makes this look the most underserved, but distance isn't in the model, and the cash-flow data needed to score it is missing."
+  },
+  {
+    "area_id": "CA-C",
+    "area_name": "Cedar Park Heights, ID",
+    "archetype": "Small-city suburb",
+    "income_regularity": 0.71,
+    "balance_volatility": 40,
+    "rent_on_time": 0.84,
+    "financial_access_gap": 0.09,
+    "community_partner_count": 3,
+    "branch_distance_mi": 1.4,
+    "missing_fields": [],
+    "unverified_fields": [],
+    "counterpoint": "Finances look steady, but most households are already banked. Outreach here would reach few of the people this program is for."
+  }
+]

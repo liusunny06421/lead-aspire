@@ -1,0 +1,24 @@
+{
+  "source": "paper/Outreach_Discovery_Conference_Paper.pdf, Table 1",
+  "synthetic": true,
+  "title": "Which Signals Predict Lasting Engagement?",
+  "subtitle": "Parameter weights for ranking where a partner bank should do outreach",
+  "n": 1200,
+  "n_holdout": 600,
+  "observed_retention": 0.51,
+  "auc": 0.66,
+  "brier": 0.234,
+  "pca_top3_each": 0.24,
+  "coefs": [
+    { "key": "intercept", "label": "β₀ (intercept)", "beta": 0.04, "se": 0.06, "z": 0.62, "p": 0.535, "or": null, "or_low": null, "or_high": null, "group": "intercept" },
+    { "key": "consented_visits", "label": "Consented visits", "beta": 0.27, "se": 0.08, "z": 3.44, "p": 0.0006, "p_text": "< 0.001", "or": 1.31, "or_low": 1.12, "or_high": 1.53, "group": "engagement" },
+    { "key": "optin_response", "label": "Opt-in response rate", "beta": 0.24, "se": 0.08, "z": 3.08, "p": 0.002, "or": 1.27, "or_low": 1.09, "or_high": 1.48, "group": "engagement" },
+    { "key": "relationship_duration", "label": "Relationship duration", "beta": 0.38, "se": 0.08, "z": 4.76, "p": 0.0001, "p_text": "< 0.001", "or": 1.46, "or_low": 1.25, "or_high": 1.70, "group": "engagement" },
+    { "key": "income_regularity", "label": "Income regularity", "beta": 0.22, "se": 0.08, "z": 2.71, "p": 0.007, "or": 1.25, "or_low": 1.06, "or_high": 1.46, "group": "pre_contact" },
+    { "key": "rent_on_time", "label": "Rent on-time share", "beta": 0.13, "se": 0.08, "z": 1.72, "p": 0.086, "or": 1.14, "or_low": 0.98, "or_high": 1.33, "group": "pre_contact" },
+    { "key": "balance_volatility", "label": "Balance volatility", "beta": -0.16, "se": 0.08, "z": -1.98, "p": 0.047, "or": 0.85, "or_low": 0.73, "or_high": 1.00, "group": "pre_contact" },
+    { "key": "utility_on_time", "label": "Utility on-time share", "beta": 0.12, "se": 0.08, "z": 1.55, "p": 0.121, "or": 1.13, "or_low": 0.97, "or_high": 1.32, "group": "weak" },
+    { "key": "cash_buffer", "label": "Cash buffer", "beta": -0.05, "se": 0.08, "z": -0.60, "p": 0.550, "or": 0.95, "or_low": 0.81, "or_high": 1.12, "group": "weak" },
+    { "key": "payment_gap_freq", "label": "Payment-gap frequency", "beta": -0.12, "se": 0.08, "z": -1.53, "p": 0.127, "or": 0.89, "or_low": 0.76, "or_high": 1.03, "group": "weak" }
+  ]
+}
