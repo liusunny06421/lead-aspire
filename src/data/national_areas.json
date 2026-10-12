@@ -1,0 +1,9 @@
+[
+  { "area_id": "CA-A", "area_name": "Mesa Flats, TX", "state": "Texas", "income_regularity": 0.74, "balance_volatility": 36, "rent_on_time": 0.86, "financial_access_gap": 0.31, "cost_per_series": 16000, "seats": 40, "max_series": 3, "bank": "Arroyo Valley Community Bank" },
+  { "area_id": "CA-D", "area_name": "Copper Wells, NM", "state": "New Mexico", "income_regularity": 0.55, "balance_volatility": 55, "rent_on_time": 0.75, "financial_access_gap": 0.24, "cost_per_series": 17000, "seats": 40, "max_series": 2, "bank": "Arroyo Valley Community Bank" },
+  { "area_id": "NA-MS", "area_name": "Delta Bend, MS", "state": "Mississippi", "income_regularity": 0.70, "balance_volatility": 40, "rent_on_time": 0.83, "financial_access_gap": 0.29, "cost_per_series": 15000, "seats": 40, "max_series": 3, "bank": "Magnolia Delta Bank" },
+  { "area_id": "NA-LA", "area_name": "Bayou Crossing, LA", "state": "Louisiana", "income_regularity": 0.66, "balance_volatility": 46, "rent_on_time": 0.80, "financial_access_gap": 0.27, "cost_per_series": 15500, "seats": 40, "max_series": 2, "bank": "Magnolia Delta Bank" },
+  { "area_id": "NA-AZ", "area_name": "Saguaro Wells, AZ", "state": "Arizona", "income_regularity": 0.68, "balance_volatility": 42, "rent_on_time": 0.82, "financial_access_gap": 0.22, "cost_per_series": 16500, "seats": 40, "max_series": 2, "bank": "Arroyo Valley Community Bank" },
+  { "area_id": "NA-WY", "area_name": "Sage Hollow, WY", "state": "Wyoming", "income_regularity": 0.63, "balance_volatility": 44, "rent_on_time": 0.79, "financial_access_gap": 0.21, "cost_per_series": 21000, "seats": 30, "max_series": 1, "bank": "High Plains Federal" },
+  { "area_id": "NA-ID", "area_name": "Juniper Gap, ID", "state": "Idaho", "income_regularity": 0.60, "balance_volatility": 50, "rent_on_time": 0.77, "financial_access_gap": 0.19, "cost_per_series": 20000, "seats": 30, "max_series": 1, "bank": "High Plains Federal" }
+]

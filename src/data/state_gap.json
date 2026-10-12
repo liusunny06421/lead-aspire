@@ -1,0 +1,308 @@
+{
+  "10": {
+    "name": "Delaware",
+    "underserved": 16.4,
+    "reach": 70,
+    "gap": 31
+  },
+  "11": {
+    "name": "District of Columbia",
+    "underserved": 12.6,
+    "reach": 68,
+    "gap": 26
+  },
+  "12": {
+    "name": "Florida",
+    "underserved": 15.5,
+    "reach": 72,
+    "gap": 28
+  },
+  "13": {
+    "name": "Georgia",
+    "underserved": 16.6,
+    "reach": 68,
+    "gap": 34
+  },
+  "15": {
+    "name": "Hawaii",
+    "underserved": 17,
+    "reach": 67,
+    "gap": 36
+  },
+  "16": {
+    "name": "Idaho",
+    "underserved": 18.5,
+    "reach": 57,
+    "gap": 51
+  },
+  "17": {
+    "name": "Illinois",
+    "underserved": 12,
+    "reach": 75,
+    "gap": 19
+  },
+  "18": {
+    "name": "Indiana",
+    "underserved": 16.4,
+    "reach": 67,
+    "gap": 35
+  },
+  "19": {
+    "name": "Iowa",
+    "underserved": 14.6,
+    "reach": 71,
+    "gap": 27
+  },
+  "20": {
+    "name": "Kansas",
+    "underserved": 15.3,
+    "reach": 65,
+    "gap": 34
+  },
+  "21": {
+    "name": "Kentucky",
+    "underserved": 13,
+    "reach": 72,
+    "gap": 23
+  },
+  "22": {
+    "name": "Louisiana",
+    "underserved": 21.5,
+    "reach": 56,
+    "gap": 61
+  },
+  "23": {
+    "name": "Maine",
+    "underserved": 15.4,
+    "reach": 71,
+    "gap": 29
+  },
+  "24": {
+    "name": "Maryland",
+    "underserved": 15.8,
+    "reach": 70,
+    "gap": 30
+  },
+  "25": {
+    "name": "Massachusetts",
+    "underserved": 15.4,
+    "reach": 65,
+    "gap": 34
+  },
+  "26": {
+    "name": "Michigan",
+    "underserved": 13.2,
+    "reach": 70,
+    "gap": 25
+  },
+  "27": {
+    "name": "Minnesota",
+    "underserved": 12.7,
+    "reach": 72,
+    "gap": 23
+  },
+  "28": {
+    "name": "Mississippi",
+    "underserved": 21.1,
+    "reach": 50,
+    "gap": 68
+  },
+  "29": {
+    "name": "Missouri",
+    "underserved": 16.7,
+    "reach": 62,
+    "gap": 41
+  },
+  "30": {
+    "name": "Montana",
+    "underserved": 19.1,
+    "reach": 56,
+    "gap": 54
+  },
+  "31": {
+    "name": "Nebraska",
+    "underserved": 15.1,
+    "reach": 66,
+    "gap": 33
+  },
+  "32": {
+    "name": "Nevada",
+    "underserved": 14.8,
+    "reach": 72,
+    "gap": 27
+  },
+  "33": {
+    "name": "New Hampshire",
+    "underserved": 14.2,
+    "reach": 74,
+    "gap": 24
+  },
+  "34": {
+    "name": "New Jersey",
+    "underserved": 16.7,
+    "reach": 69,
+    "gap": 33
+  },
+  "35": {
+    "name": "New Mexico",
+    "underserved": 20.9,
+    "reach": 49,
+    "gap": 68
+  },
+  "36": {
+    "name": "New York",
+    "underserved": 16.4,
+    "reach": 70,
+    "gap": 31
+  },
+  "37": {
+    "name": "North Carolina",
+    "underserved": 16.5,
+    "reach": 68,
+    "gap": 34
+  },
+  "38": {
+    "name": "North Dakota",
+    "underserved": 13.8,
+    "reach": 66,
+    "gap": 30
+  },
+  "39": {
+    "name": "Ohio",
+    "underserved": 18,
+    "reach": 61,
+    "gap": 45
+  },
+  "40": {
+    "name": "Oklahoma",
+    "underserved": 17.3,
+    "reach": 61,
+    "gap": 43
+  },
+  "41": {
+    "name": "Oregon",
+    "underserved": 13.9,
+    "reach": 72,
+    "gap": 25
+  },
+  "42": {
+    "name": "Pennsylvania",
+    "underserved": 14.9,
+    "reach": 68,
+    "gap": 31
+  },
+  "44": {
+    "name": "Rhode Island",
+    "underserved": 17.2,
+    "reach": 63,
+    "gap": 41
+  },
+  "45": {
+    "name": "South Carolina",
+    "underserved": 17.7,
+    "reach": 65,
+    "gap": 40
+  },
+  "46": {
+    "name": "South Dakota",
+    "underserved": 19.3,
+    "reach": 62,
+    "gap": 47
+  },
+  "47": {
+    "name": "Tennessee",
+    "underserved": 13.9,
+    "reach": 70,
+    "gap": 27
+  },
+  "48": {
+    "name": "Texas",
+    "underserved": 22.7,
+    "reach": 49,
+    "gap": 74
+  },
+  "49": {
+    "name": "Utah",
+    "underserved": 16.1,
+    "reach": 64,
+    "gap": 37
+  },
+  "50": {
+    "name": "Vermont",
+    "underserved": 15.3,
+    "reach": 68,
+    "gap": 31
+  },
+  "51": {
+    "name": "Virginia",
+    "underserved": 16.3,
+    "reach": 66,
+    "gap": 35
+  },
+  "53": {
+    "name": "Washington",
+    "underserved": 14.5,
+    "reach": 64,
+    "gap": 33
+  },
+  "54": {
+    "name": "West Virginia",
+    "underserved": 16.6,
+    "reach": 66,
+    "gap": 36
+  },
+  "55": {
+    "name": "Wisconsin",
+    "underserved": 13.3,
+    "reach": 69,
+    "gap": 26
+  },
+  "56": {
+    "name": "Wyoming",
+    "underserved": 20.9,
+    "reach": 55,
+    "gap": 60
+  },
+  "01": {
+    "name": "Alabama",
+    "underserved": 17.6,
+    "reach": 57,
+    "gap": 48
+  },
+  "02": {
+    "name": "Alaska",
+    "underserved": 14.8,
+    "reach": 65,
+    "gap": 33
+  },
+  "04": {
+    "name": "Arizona",
+    "underserved": 18.9,
+    "reach": 57,
+    "gap": 52
+  },
+  "08": {
+    "name": "Colorado",
+    "underserved": 14.4,
+    "reach": 72,
+    "gap": 26
+  },
+  "09": {
+    "name": "Connecticut",
+    "underserved": 16,
+    "reach": 62,
+    "gap": 39
+  },
+  "05": {
+    "name": "Arkansas",
+    "underserved": 18.5,
+    "reach": 57,
+    "gap": 51
+  },
+  "06": {
+    "name": "California",
+    "underserved": 15.1,
+    "reach": 68,
+    "gap": 31
+  }
+}

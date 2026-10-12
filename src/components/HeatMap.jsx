@@ -114,9 +114,9 @@ export default function HeatMap({ areas, activeId, onPick, progress = 1 }) {
           <i style={{ background: `linear-gradient(90deg, ${heatColor(LOW)}, ${heatColor((LOW + HIGH) / 2)}, ${heatColor(HIGH)})` }} />
           Model-estimated retention {Math.round(LOW * 100)}% → {Math.round(HIGH * 100)}%
         </span>
-        <span><i className="sw hatch" /> Low need</span>
+        
         <span><i className="sw missing" /> Data missing</span>
-        <span className="muted">Schematic, not to scale. Click a labeled area.</span>
+        
       </div>
     </div>
   )

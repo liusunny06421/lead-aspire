@@ -1,7 +1,14 @@
 {
   "fictional": true,
-  "user": { "name": "Maya Torres", "initials": "MT", "role": "Community Partnerships, Mastercard" },
-  "reviewer": { "name": "Daniel Reyes", "role": "Partnerships Lead, Mastercard" },
+  "user": {
+    "name": "Maya Torres",
+    "initials": "MT",
+    "role": "Community Partnerships, Mastercard"
+  },
+  "reviewer": {
+    "name": "Daniel Reyes",
+    "role": "Partnerships Lead, Mastercard"
+  },
   "bank": {
     "name": "Arroyo Valley Community Bank",
     "short": "Arroyo Valley",
@@ -12,10 +19,30 @@
   "region": "El Paso region, TX–NM",
   "search_query": "Underserved households, El Paso region",
   "datasets": [
-    { "id": "access", "name": "Household banking access", "detail": "Unbanked and underbanked share by area (survey-based)", "analog": "FDIC household survey" },
-    { "id": "cashflow", "name": "Aggregated cash-flow indices", "detail": "Income regularity and balance volatility, area averages only", "analog": "Anonymized card-network insights" },
-    { "id": "rent", "name": "Rent-payment aggregates", "detail": "Share of rent paid on time, area averages", "analog": "Rent-reporting partners" },
-    { "id": "branches", "name": "Branch and partner locations", "detail": "Branch distance and active community organizations", "analog": "FDIC Summary of Deposits, nonprofit directories" }
+    {
+      "id": "access",
+      "name": "Household banking access",
+      "detail": "Unbanked and underbanked share by area (survey-based)",
+      "analog": "FDIC household survey"
+    },
+    {
+      "id": "cashflow",
+      "name": "Aggregated cash-flow indices",
+      "detail": "Income regularity and balance volatility, area averages only",
+      "analog": "Anonymized card-network insights"
+    },
+    {
+      "id": "rent",
+      "name": "Rent-payment aggregates",
+      "detail": "Share of rent paid on time, area averages",
+      "analog": "Rent-reporting partners"
+    },
+    {
+      "id": "branches",
+      "name": "Branch and partner locations",
+      "detail": "Branch distance and active community organizations",
+      "analog": "FDIC Summary of Deposits, nonprofit directories"
+    }
   ],
   "discovery_steps": [
     "Joining 4 aggregate datasets at area level",
@@ -25,23 +52,71 @@
     "Ranking eligible areas"
   ],
   "timeline": [
-    { "date": "Oct 14, 2026", "event": "Brief shared with Arroyo Valley Community Bank" },
-    { "date": "Oct 28, 2026", "event": "Bank confirms host partner: Mesa Flats Public Library" },
-    { "date": "Feb 2, 2027", "event": "Workshop series begins (6 sessions)" },
-    { "date": "Mar 9, 2027", "event": "Series ends: 64 attended, 41 consented" },
-    { "date": "Jun 1, 2027", "event": "90-day retention readout" }
+    {
+      "date": "Oct 14, 2026",
+      "event": "Brief shared with Arroyo Valley Community Bank"
+    },
+    {
+      "date": "Oct 28, 2026",
+      "event": "Bank confirms host partner: Mesa Flats Public Library"
+    },
+    {
+      "date": "Feb 2, 2027",
+      "event": "Workshop series begins (6 sessions)"
+    },
+    {
+      "date": "Mar 9, 2027",
+      "event": "Series ends: 64 attended, 41 consented"
+    },
+    {
+      "date": "Jun 1, 2027",
+      "event": "90-day retention readout"
+    }
   ],
   "consent_feed": [
-    { "time": "Feb 2", "text": "Workshop 1 · 23 attendees · 15 consented to follow-up" },
-    { "time": "Feb 9", "text": "Workshop 2 · 19 attendees · 9 new consents" },
-    { "time": "Feb 16", "text": "Branch visit logged · Rosa T. · account questions" },
-    { "time": "Feb 23", "text": "Workshop 3 · 21 attendees · 8 new consents" },
-    { "time": "Mar 2", "text": "Opt-in text reminder · 27 of 41 responded" },
-    { "time": "Mar 9", "text": "Workshop 6 · series complete · 41 consented in total" }
+    {
+      "time": "Feb 2",
+      "text": "Workshop 1 · 23 attendees · 15 consented to follow-up"
+    },
+    {
+      "time": "Feb 9",
+      "text": "Workshop 2 · 19 attendees · 9 new consents"
+    },
+    {
+      "time": "Feb 16",
+      "text": "Branch visit logged · Rosa T. · account questions"
+    },
+    {
+      "time": "Feb 23",
+      "text": "Workshop 3 · 21 attendees · 8 new consents"
+    },
+    {
+      "time": "Mar 2",
+      "text": "Opt-in text reminder · 27 of 41 responded"
+    },
+    {
+      "time": "Mar 9",
+      "text": "Workshop 6 · series complete · 41 consented in total"
+    }
   ],
   "what_worked": [
-    { "source": "Referred by library partner", "consented": 18, "retained": 13 },
-    { "source": "Walk-in at branch event", "consented": 12, "retained": 6 },
-    { "source": "Flyer or social post", "consented": 11, "retained": 3 }
+    {
+      "source": "Referred by library partner",
+      "consented": 18,
+      "retained": 13,
+      "short": "Library partner"
+    },
+    {
+      "source": "Walk-in at branch event",
+      "consented": 12,
+      "retained": 6,
+      "short": "Branch event"
+    },
+    {
+      "source": "Flyer or social post",
+      "consented": 11,
+      "retained": 3,
+      "short": "Flyer"
+    }
   ]
 }
